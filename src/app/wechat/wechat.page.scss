@@ -1,0 +1,28 @@
+@import "../../util.scss";
+
+.input-box {
+  padding-top: vw(210);
+  padding-bottom: 14px;
+}
+
+input {
+  width: vw(265);
+  height: vw(38);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: vw(9) vw(28);
+  --placeholder-color: #363636;
+  --placeholder-opacity: 1;
+  border: 0;
+  outline: none;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #363636;
+  opacity: 1;
+}
+
+
+

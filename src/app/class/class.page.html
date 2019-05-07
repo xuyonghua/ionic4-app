@@ -1,0 +1,32 @@
+<ion-content>
+  <div class="container">
+
+    <div class="class_list_container flex-center-col" >
+      <ion-button class="add-class-button" *ngFor="let class of classList;index as i" (click)="changeClass(i)">
+        {{class}}
+      </ion-button>
+    </div>
+
+    <div class="no-class" [hidden]="hasAddClass">
+      尚未加入任何课程
+    </div>
+
+    <div [hidden]="!hasAddClass" class="flex-center-row add-class-container">
+      <div class="add-line">
+      </div>
+      加入课程
+      <div class="add-line">
+      </div>
+    </div>
+
+    <div class="input-box flex-center-col">
+      <input placeholder="输入课程码" type="number" [(ngModel)]="code">
+    </div>
+
+    <div class="flex-center-row">
+      <ion-button class="add-class-button" (click)="clickAddClass()">
+        加入课程
+      </ion-button>
+    </div>
+  </div>
+</ion-content>

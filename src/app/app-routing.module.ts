@@ -4,7 +4,8 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' },
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
-  { path: '', loadChildren: './wechat/wechat.module#WechatPageModule' }
+  { path: 'wechat', loadChildren: './wechat/wechat.module#WechatPageModule' },
+  { path: '', loadChildren: './class/class.module#ClassPageModule' }
 ];
 @NgModule({
   imports: [

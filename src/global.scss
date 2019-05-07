@@ -30,3 +30,15 @@
   background: url("./assets/image/bg.png") center center no-repeat;
   background-size: cover;
 }
+
+.custom_toast{
+  --background:rgba(0,0,0,0.5);
+  --width:200px;
+  --height:40px;
+  text-align:center;
+  --border-radius: 20px;
+  --color: white;
+  display: flex;
+  align-items: center;
+  line-height: 10px;
+}

@@ -1,0 +1,62 @@
+@import "../../util.scss";
+
+.class_list_container{
+  padding-top: vw(160);
+}
+
+.no-class{
+  text-align: center;
+  padding-top: vw(180);
+  color: white;
+}
+
+.add-class-container{
+  padding-top: vw(160);
+  color: white;
+  text-align: center;
+}
+
+.add-line{
+  background: white;
+  width: 32%;
+  height: 1px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.input-box {
+  padding-top: vw(30);
+  padding-bottom: 14px;
+}
+
+input {
+  width: vw(265);
+  height: vw(38);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: vw(9) vw(28);
+  --placeholder-color: #363636;
+  --placeholder-opacity: 1;
+  border: 0;
+  color: white;
+  outline: none;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  color: #363636;
+  opacity: 1;
+}
+
+.add-class-button{
+  margin-top: vw(10);
+  border-radius: 5px;
+  width: vw(265);
+  height: vw(38);
+  --background: white;
+  color: #18745F;
+  font-size: 14px;
+}
+

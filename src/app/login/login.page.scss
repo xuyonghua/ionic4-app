@@ -10,3 +10,10 @@ ion-button {
 a {
   color: #fff;
 }
+
+ion-content {
+  //--background: var(--ion-color-primary);
+  //--background: url('../../assets/image/bg.png') no-repeat center center;
+  background-size: cover;
+  --overflow: hidden;
+}

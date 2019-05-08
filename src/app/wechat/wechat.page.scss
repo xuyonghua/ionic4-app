@@ -2,7 +2,7 @@
 
 .input-box {
   padding-top: vw(210);
-  padding-bottom: 14px;
+  padding-bottom: vw(14);
 }
 
 input {
@@ -15,8 +15,8 @@ input {
   --placeholder-opacity: 1;
   border: 0;
   outline: none;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: vw(14);
+  line-height: vw(20);
 }
 
 ::-webkit-input-placeholder {

@@ -1,9 +1,9 @@
-<ion-content>
-    <div class="container">
-        <div class="input-box flex-center-col">
-            <!--<ion-input placeholder="输入绑定手机号"></ion-input>-->
-            <input placeholder="输入绑定手机号" type="number" [(ngModel)]="phone"/>
-            <div>{{phone}}</div>
-        </div>
+<ion-content appBg>
+    <div class="input-box flex-center-col">
+        <!--<ion-input placeholder="输入绑定手机号"></ion-input>-->
+        <input placeholder="输入绑定手机号" type="number" [(ngModel)]="phone"/>
+        <div>{{phone}}</div>
     </div>
+    <!--<a routerLink="/tabs">tabs</a>-->
+    <a [routerLink]="['/tabs']">tabs</a>
 </ion-content>

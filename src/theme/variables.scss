@@ -76,7 +76,38 @@
   --ion-color-light-tint: #f5f6f9;
 }
 
-//ion-content {
-//  --overflow: hidden;
-//}
+ion-content {
+  //--overflow: hidden;
+  --background: transparent;
+}
+
+ion-tab-bar {
+  --background: transparent;
+  //--background: rgba(255, 255, 255, 1);
+  --border: none;
+  //opacity: 0.2;
+}
+
+ion-tab-button {
+  --background: rgba(255, 255, 255, 0.2);
+  --background-focused: red;
+  --color: rgba(255, 255, 255, 0.55);
+  --color-selected: rgba(255, 255, 255, 1);
+  --padding-top: 4px;
+  --padding-bottom: 2px;
+}
+
+ion-toolbar {
+  --background: transparent;
+  --border-width: 0;
+  --border-style: none;
+  --color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+body {
+  //background: transparent;
+  background-size: cover;
+}
 
